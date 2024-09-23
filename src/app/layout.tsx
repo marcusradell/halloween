@@ -14,7 +14,7 @@ const geistMono = localFont({
 });
 
 export const metadata: Metadata = {
-  title: "Halloween",
+  title: "🎃 Halloween 🎃",
   description: "Invitation to celebrating halloween",
 };
 

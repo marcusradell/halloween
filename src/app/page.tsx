@@ -31,7 +31,7 @@ export default function Home() {
 
   return (
     <main className="prose container mx-auto pt-4">
-      <h1>Halloween</h1>
+      <h1>🎃 Halloween 🎃</h1>
 
       <section>
         <div className="grid grid-flow-col gap-5 text-center auto-cols-max">
