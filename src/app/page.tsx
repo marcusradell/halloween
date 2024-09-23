@@ -39,7 +39,7 @@ export default function Home() {
             <span className="countdown font-mono text-5xl">
               <span
                 suppressHydrationWarning
-                style={{ "--value": days } as any}
+                style={{ "--value": days } as React.CSSProperties}
               ></span>
             </span>
             days
@@ -48,7 +48,7 @@ export default function Home() {
             <span className="countdown font-mono text-5xl">
               <span
                 suppressHydrationWarning
-                style={{ "--value": hours } as any}
+                style={{ "--value": hours } as React.CSSProperties}
               ></span>
             </span>
             hours
@@ -57,7 +57,7 @@ export default function Home() {
             <span className="countdown font-mono text-5xl">
               <span
                 suppressHydrationWarning
-                style={{ "--value": minutes } as any}
+                style={{ "--value": minutes } as React.CSSProperties}
               ></span>
             </span>
             min
@@ -66,7 +66,7 @@ export default function Home() {
             <span className="countdown font-mono text-5xl">
               <span
                 suppressHydrationWarning
-                style={{ "--value": seconds } as any}
+                style={{ "--value": seconds } as React.CSSProperties}
               ></span>
             </span>
             sec
