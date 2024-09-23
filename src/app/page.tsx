@@ -19,7 +19,7 @@ export default function Home() {
   const minutes = Math.floor(delta / 60) % 60;
   delta -= minutes * 60;
 
-  const seconds = Math.ceil(delta % 60);
+  const seconds = Math.floor(delta % 60);
 
   useEffect(() => {
     const interval = setInterval(() => {
