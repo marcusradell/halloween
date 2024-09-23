@@ -8,18 +8,18 @@ export default function Home() {
   const date_future = new Date("2024-10-31");
   date_future.setHours(0, 0, 0);
 
-  var delta = Math.abs(date_future.getTime() - date_now.getTime()) / 1000;
+  let delta = Math.abs(date_future.getTime() - date_now.getTime()) / 1000;
 
-  var days = Math.floor(delta / 86400);
+  const days = Math.floor(delta / 86400);
   delta -= days * 86400;
 
-  var hours = Math.floor(delta / 3600) % 24;
+  const hours = Math.floor(delta / 3600) % 24;
   delta -= hours * 3600;
 
-  var minutes = Math.floor(delta / 60) % 60;
+  const minutes = Math.floor(delta / 60) % 60;
   delta -= minutes * 60;
 
-  var seconds = Math.ceil(delta % 60);
+  const seconds = Math.ceil(delta % 60);
 
   useEffect(() => {
     const interval = setInterval(() => {
